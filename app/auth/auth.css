@@ -1,0 +1,31 @@
+.panel {
+    @apply flex items-center justify-center min-h-screen bg-gray-100;
+}
+
+.panel-container {
+    @apply w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md;
+}
+
+.panel-title {
+    @apply text-2xl font-bold text-center;
+}
+
+.panel-subtitle {
+    @apply text-center text-gray-600;
+}
+
+.panel-form {
+    @apply space-y-6;
+}
+
+.panel-label {
+    @apply block text-sm font-medium text-gray-700;
+}
+
+.panel-input {
+    @apply w-full px-3 py-2 mt-1 border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500;
+}
+
+.panel-button {
+    @apply w-full px-4 py-2 font-medium text-white bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+}
